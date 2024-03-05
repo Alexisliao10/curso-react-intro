@@ -1,9 +1,9 @@
 import "./TodoCounter.css";
-function TodoCounter({total, completed}) {
-  return (
-    <h1 className="TodoCounter">
-      Has completado <span>{completed}</span> de <span>{total} </span>TODOs
-    </h1>
-  );
+function TodoCounter({ total, completed }) {
+  const message =
+    completed === total
+      ? `¡Felicidades! Has completado todos los TODOs.`
+      : `Has completado ${completed} de ${total} TODOs`;
+  return <h1 className="TodoCounter">{message}</h1>;
 }
-export {TodoCounter};
+export { TodoCounter };
