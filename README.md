@@ -1,6 +1,6 @@
 # React TODO App
 
-# Repositorio base del Curso de Introducción a React.js en Platzi
+## Repositorio base del Curso de Introducción a React.js en Platzi
 
 Deploy: https://curso-react-intro-nine.vercel.app/
 
