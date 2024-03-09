@@ -1,77 +1,57 @@
+# React TODO App
+
 # Repositorio base del Curso de Introducción a React.js en Platzi
 
 Deploy: https://curso-react-intro-nine.vercel.app/
 
-¡Hola, Platzinauta!
+¡Hola! Un saludo para la persona tan increíble que está dedicando su valioso tiempo a ver este proyecto.
 
-En este repositorio encontrarás el código de todas las clases del [Curso de Introducción a React.js](https://platzi.com/reactjs). Para empezar solo debes clonar este repositorio (`git clone`), instalar sus dependencias (`npm i`) y ejecutar la aplicación (`npm start`).
+Este repositorio contiene mi primera aplicación TODO construida con React. Durante este proyecto, aprendí y aplicé varios conceptos clave de React y organización de código. A continuación, se describen algunas de las características principales implementadas:
 
-La rama principal contiene el código con el que eempezamos el curso. En las demás ramas encontrarás el código de las siguientes clases y finalmente el deploy de la aplicación.
+## Características Aprendidas
 
-¡Mucha suerte aprendiendo React! #NuncaParesDeAprender
+### 1. Uso de React
 
-## Getting Started with Create React App
+- Implementación de componentes funcionales y de clase en React.
+- Utilización de `useState` para gestionar el estado local de los componentes.
+- Manipulación de propiedades (`props`) para pasar datos entre componentes.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 2. Custom Hooks
 
-## Available Scripts
+- Creación y uso de Custom Hooks para encapsular lógica reutilizable.
+- Ejemplo de Custom Hook: `useLocalStorage` para gestionar datos en `localStorage`.
 
-In the project directory, you can run:
+### 3. useEffect y useContext
 
-### `npm start`
+- Aplicación de `useEffect` para manejar efectos secundarios, como peticiones a APIs o actualizaciones del DOM.
+- Utilización de `useContext` para gestionar el contexto y propiedades globales en la aplicación.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 4. Eventos y Manejo de Formularios
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Implementación de eventos `onClick` y `onChange` para interactuar con los elementos de la interfaz de usuario.
+- Manejo de formularios en React para la entrada y modificación de datos.
 
-### `npm run build`
+### 5. Uso de React Portals
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Implementación de React Portals para renderizar componentes fuera de la jerarquía principal del DOM.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 6. LocalStorage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Almacenamiento y recuperación de datos en `localStorage` para mantener el estado de la aplicación incluso después de recargar la página.
 
-### `npm run eject`
+### 7. Organización de Archivos en React
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Estructuración y organización de archivos y carpetas en una aplicación React.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Cómo Ejecutar la Aplicación
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clona este repositorio.
+2. Navega al directorio del proyecto: `cd react-todo-app`.
+3. Instala las dependencias: `npm install`.
+4. Inicia la aplicación: `npm start`.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+¡Explora y disfruta la aplicación TODO construida con React!
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+_Este proyecto fue creado como parte de mi aprendizaje inicial en React. Espero que sea útil para aquellos que deseen aprender y explorar las funcionalidades de React en una aplicación práctica de TODO._
