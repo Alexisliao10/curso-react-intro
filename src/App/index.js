@@ -11,6 +11,7 @@ import { TodosEmpty } from "../TodosEmpty";
 import { Modal } from "../Modal";
 import { TodoForm } from "../TodoForm";
 import { TodoHeader } from "../TodoHeader";
+import { TodosNotFound } from "../TodosNotFound";
 
 function App() {
   const {
@@ -43,6 +44,7 @@ function App() {
         error={error}
         loading={loading}
         searchedTodos={searchedTodos}
+        totalTodos={totalTodos}
         onError={() => <TodosError />}
         onLoading={() => (
           <>
@@ -52,6 +54,7 @@ function App() {
           </>
         )}
         onEmpty={() => <TodosEmpty />}
+        onNotSeachFound={() => <TodosNotFound searchText={searchValue} />}
         render={(todo) => (
           <TodoItem
             key={todo.text}
