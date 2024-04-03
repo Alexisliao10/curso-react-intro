@@ -8,3 +8,7 @@
 .TodoCounter span {
   font-weight: 700;
 }
+
+.TodoCounter--loading {
+  opacity: 25%;
+}

@@ -30,7 +30,7 @@ function App() {
   } = useTodos();
   return (
     <>
-      <TodoHeader>
+      <TodoHeader loading={loading}>
         <TodoCounter
           completedTodos={completedTodos}
           totalTodos={totalTodos}
