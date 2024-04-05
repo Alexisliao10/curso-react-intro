@@ -25,7 +25,8 @@ function TodoForm({ addTodo, setOpenModal }) {
         placeholder="Cortar cebolla para el almuerzo"
         value={newTodoValue}
         onChange={onChange}
-      ></textarea>
+        autoFocus={true}
+      />
       <div className="TodoForm-buttonContainer">
         <button
           className="TodoForm-button TodoForm-button--cancel"
