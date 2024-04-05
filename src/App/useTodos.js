@@ -50,20 +50,25 @@ function useTodos() {
     newTodos.splice(todoIndex, 1);
     saveTodos(newTodos);
   };
-  return {
+
+  const states = {
     loading,
     error,
     completedTodos,
     totalTodos,
     searchValue,
-    setSearchValue,
     searchedTodos,
+    openModal,
+  };
+
+  const statesUpdater = {
+    setSearchValue,
     addTodo,
     completeTodo,
     deleteTodo,
-    openModal,
     setOpenModal,
   };
+  return { states, statesUpdater };
 }
 
 export { useTodos };
