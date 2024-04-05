@@ -14,20 +14,18 @@ import { TodoHeader } from "../TodoHeader";
 import { TodosNotFound } from "../TodosNotFound";
 
 function App() {
+  const { states, statesUpdater } = useTodos();
   const {
-    error,
     loading,
-    searchedTodos,
-    completeTodo,
-    deleteTodo,
-    openModal,
-    setOpenModal,
-    totalTodos,
+    error,
     completedTodos,
+    totalTodos,
     searchValue,
-    setSearchValue,
-    addTodo,
-  } = useTodos();
+    searchedTodos,
+    openModal,
+  } = states;
+  const { setSearchValue, addTodo, completeTodo, deleteTodo, setOpenModal } =
+    statesUpdater;
   return (
     <>
       <TodoHeader loading={loading}>
